@@ -1,0 +1,70 @@
+h1 {
+    color :lightcoral;
+    font-style: italic;
+    font-family: "Algerian";
+}
+
+
+  
+    .header {
+        background-color: blueviolet;
+        display : flex;
+        justify-content: space-between;
+        border: 5px solid #000
+        
+    }
+    
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .item{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        
+    }
+    .item1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        
+    }
+
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+    }
+    body{
+        background-color: #bbaadd;
+        background-image: url("https://s3.amazonaws.com/media-p.slid.es/uploads/1525749/images/8806051/pasted-from-clipboard.png")
+    }
+
+    .menu{
+        margin-right: 30px;
+        margin-top: 7px;
+        text-size-adjust: 30;
+    }
+
+.menu a{
+    margin-left: 50px;
+}
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity:0.33;
+}
+
